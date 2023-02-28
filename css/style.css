@@ -21,9 +21,7 @@ body{
 
 .header-section{
     background-color: #043873;
-    height: 100vh;
-    width: 100%;
-}
+    }
 .navbar{
     margin: 16px 0;
 }
@@ -41,36 +39,141 @@ body{
     background-color: #FFE492;
     justify-content: center;
     align-items: center;
-    padding: 22px 40px;
+    padding: 20px 40px;
     margin-left: 30px;
     border-radius: 8px;      
 }
-
 .btn-login a{
     text-decoration: none;
     list-style: none;
     color: #043873;
     align-items: center;
 }
+.btn-login:hover{
+    background-color: #4F9CF9;
+}
 .btn-all{
     background-color: #4F9CF9;
     border-radius: 8px;
     justify-content: center;
     align-items: center;
-    padding: 22px 14px;
-    margin-left: 15px;
+    padding: 20px 14px;
+    
     }
+.header-section .btn-all{
+    margin-left: 15px;
+}
 .btn-all a{
     text-decoration: none;
     list-style: none;
     color: #ffff;
 }
 .btn-all img {
-    padding-left: 10px;
+    padding-left: 7px;
 }
 .btn-all:hover{
     background-color: #FFE492;    
-}
+    }
 .btn-all a:hover{
-    color: #0000;
+    color: #043873;    
+        }
+.btn-all-2{
+    background-color: #4F9CF9;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 50px;          
+    }
+.btn-all-2 a{
+    text-decoration: none;
+    list-style: none;
+    color: #ffff;
+}
+.btn-all-2:hover{
+    background-color: #FFE492;    
+    }
+.btn-all-2 a:hover{
+    color: #043873;    
+        }
+.btn-all-2 img {
+    padding-left: 7px;
+        }
+
+.banner-section{
+    background-color: #043873;
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.banner-section h3{
+    font-weight: 700;
+    font-size: 44px;
+    color: #FFFFFF;
+    padding-top: 56px;
+
+}
+.banner-section p{
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 24px 0;    
+}
+.hero-section{
+    padding-top: 40px;
+    margin-top: 40px;
+}
+.sub-hero-section h3{
+    font-weight: 700;
+    font-size: 52px;
+    color: #212529;
+    padding-top: 50px;
+    
+}
+
+.sub-hero-section p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #212529;
+   
+}
+
+.sub-hero-section-1{
+    padding-left: 60px;
+    padding-top: 50px;
+    
+}
+.sub-hero-section-1 h3{
+    font-weight: 700;
+    font-size: 52px;
+    color: #212529;
+    padding-top: 50px;
+    
+}
+
+.sub-hero-section-1 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #212529;
+   
+}
+
+.use-as-section{
+    background-color: #043873;
+    
+}
+.use-as-section h3{
+    font-weight: 700;
+    font-size: 52px;
+    color: #ffff;
+    padding-top: 50px;
+
+}
+.use-as-section p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffff;
+   
+}
+.sub-use-as-section{
+    padding: 90px 0;
 }
